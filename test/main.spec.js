@@ -1,6 +1,6 @@
 fixture.setBase('src');
 
-// Load index.html before each test run.
+// Load index.html and call onLoad before each test run.
 QUnit.module('DOM manipulation', {
     beforeEach: function() {
         var mainHtml = fixture.load('index.html')
