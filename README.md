@@ -20,7 +20,7 @@ By following the instructions in this repository, you can test that your DOM man
     ...
          files: [
     +      'src/index.html',
-    +      'node\_modules/jquery/dist/jquery.js',
+    +      'node_modules/jquery/dist/jquery.js',
            'src/**/*.js',
            'test/**/*.spec.js'
          ],
