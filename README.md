@@ -54,10 +54,7 @@ By following the instructions in this repository, you can test that your DOM man
 - Write `main.js` and create `onLoad` function:
     ```
     var onLoad = function() {
-        $('#form').submit(function(e) {
-            e.preventDefault();
-            setOutput('Hello, ' + getName());
-        });
+        // ... page-load code goes here
     };
 
     $(function() {
