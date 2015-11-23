@@ -11,6 +11,7 @@ By following the instructions in this repository, you can test that your DOM man
 - `npm init`
 - `npm install karma karma-cli karma-fixture karma-html2js-preprocessor karma-phantomjs-launcher karma-qunit qunitjs --save-dev`
 - `npm install jquery --save`
+- `./node_modules/.bin/karma init`
 - Modify `karma.conf.js`:
 
     ```
